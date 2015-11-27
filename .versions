@@ -2,7 +2,7 @@ backbone@0.9.2
 erasaur:meteor-lodash@3.10.1_1
 jquery@1.11.4
 json@1.0.3
-local-test:sergiisavchenko:jointjs@0.9.5
+local-test:sergiisavchenko:jointjs@0.9.5_1
 meteor@1.1.10
-sergiisavchenko:jointjs@0.9.5
+sergiisavchenko:jointjs@0.9.5_1
 underscore@1.0.4

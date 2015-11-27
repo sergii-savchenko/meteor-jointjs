@@ -11,8 +11,11 @@ Package.onUse(function(api) {
   api.use('backbone@0.9.2', 'client');
   api.use('erasaur:meteor-lodash@3.10.1_1', 'client');
   api.addFiles([ 'joint.min.js', 'joint.min.css' ], 'client');
-  api.export('g', 'client');
-  api.export('V', 'client');
+  var joint = {
+    g: g,
+    V: V,
+    joint: joint
+  };
   api.export('joint', 'client');
 });
 
