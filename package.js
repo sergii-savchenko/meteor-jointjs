@@ -8,15 +8,10 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
-  api.use('backbone@0.9.2', 'client');
+  api.use('karfield:backbone@1.2.1', 'client');
   api.use('erasaur:meteor-lodash@3.10.1_1', 'client');
   api.addFiles([ 'joint.min.js', 'joint.min.css' ], 'client');
-  var joint = {
-    g: g,
-    V: V,
-    joint: joint
-  };
-  api.export('joint', 'client');
+
 });
 
 Package.onTest(function(api) {
