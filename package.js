@@ -1,6 +1,6 @@
 Package.describe({
   name: 'sergiisavchenko:jointjs',
-  version: '0.9.5',
+  version: '0.9.5_1',
   summary: 'Meteor Package for JointJS 0.9.5',
   git: 'https://github.com/sergii-savchenko/meteor-jointjs.git',
   documentation: 'README.md'
